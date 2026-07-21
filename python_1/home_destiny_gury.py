@@ -19,7 +19,7 @@ while user_name != correct_username or password != correct_password:
 
 print( "Welcome", user_name )
 
-# Try again
+# Try again# Try again# Try again# Try again# Try again
 while user_wants_to_try_again:
     at_home = int( input("Where are you? Press 1 for Home. 0 for Work: ") )
     raining = int( input( "Is it raining? Press 1 for Yes and 0 for no.: ") )

@@ -3,6 +3,9 @@ def greet_user():
     print("------------------------")
     print("Say hello!!!!!!!!!!!!!!!!!")
     print("Hope you have a nice day")
+    print("Hope you have a nice day")
+    print("Hope you have a nice day")
+    print("Hope you have a nice day")
     print("------------------------")
 
 # Function with a parameter
