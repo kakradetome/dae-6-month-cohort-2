@@ -1,19 +1,10 @@
-title: "YOUR NAME — Cybersecurity & Backend Developer"
-description: "Portfolio showcasing secure backend systems, automation, and case studies."
-url: "https://kakradetome.github.io"
-baseurl: "/Kay-s-3-Week-Dae-Projects" # must match repo name exactly
-
-theme: jekyll-theme-architect
-permalink: pretty
-
-plugins:
-    - jekyll-seo-tag
-    - jekyll-feed
-
-# Optional GitHub metadata shown by Architect; safe to keep
+title: "[YOUR FULL NAME] | Portfolio"
+description: "[SHORT PORTFOLIO DESCRIPTION]"
 show_downloads: false
+theme: jekyll-theme-architect
 
-exclude:
-    - README.md
-    - Gemfile
-    - Gemfile.lock
+# Keep URLs portable when this docs folder is used in a project repository.
+url: ""
+baseurl: ""
+
+# GitHub Pages/Jekyll defaults are otherwise left intact.

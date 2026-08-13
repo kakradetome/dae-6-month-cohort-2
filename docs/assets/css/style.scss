@@ -1,0 +1,48 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Small portfolio-specific additions. The selected GitHub Pages theme still
+   supplies the main typography, layout, and visual design. */
+.dae-brand {
+  margin: 0 0 1.25rem;
+}
+
+.dae-brand img {
+  display: block;
+  max-width: 180px;
+  width: 42%;
+  height: auto;
+}
+
+.portfolio-nav {
+  margin: 0 0 2rem;
+  padding: .75rem 0;
+  line-height: 1.8;
+}
+
+img[alt="Professional headshot placeholder"] {
+  display: block;
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+}
+
+img[alt^="Project "] {
+  display: block;
+  max-width: 760px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .dae-brand img {
+    width: 55%;
+    max-width: 150px;
+  }
+
+  .portfolio-nav {
+    line-height: 2;
+  }
+}
