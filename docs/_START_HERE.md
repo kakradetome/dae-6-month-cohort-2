@@ -1,10 +1,5 @@
-# Merlot starter
+# Midnight starter
 
-This package is intentionally conservative:
-- It uses the official GitHub Pages/Jekyll theme rather than copying or rewriting the theme layout.
-- The uploaded dae logo is included under `assets/images/`.
-- Bracketed text is placeholder content to replace.
-- The same checklist-driven content structure is used across themes so you can compare the visual themes fairly.
-- `assets/css/style.scss` imports the theme first and adds only small responsive rules for the logo/navigation/images.
+This version intentionally does NOT set `url` or `baseurl`. For a GitHub Pages project site, GitHub supplies the repository base path; hard-coding an empty base URL can make the theme CSS and images resolve to the wrong location.
 
-Theme configuration used: `jekyll-theme-merlot`
+Theme: `jekyll-theme-midnight`
