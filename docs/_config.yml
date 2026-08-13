@@ -1,7 +1,7 @@
 title: "[YOUR FULL NAME] | Portfolio"
 description: "[SHORT PORTFOLIO DESCRIPTION]"
 show_downloads: false
-theme: jekyll-theme-architect
+theme: jekyll-theme-merlot
 
 # Keep URLs portable when this docs folder is used in a project repository.
 url: ""
